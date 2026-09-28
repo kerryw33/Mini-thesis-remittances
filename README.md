@@ -12,7 +12,7 @@ graphs and runs a Monte Carlo robustness test to see how each channel's cost,
 speed, and access performance holds up as the underlying fee/FX/time/access
 parameters are varied by increasing amounts.
 
-Per supervisor feedback, this script extends the original single-level
+The script extends the original single-level
 (±20%) Monte Carlo analysis to report both the **cost (mean ± SE)** table and
 the **ranking-robustness** table at three parameter uncertainty levels —
 ±20%, ±50%, ±100% — so that the Combined architecture's dominance can be
@@ -75,3 +75,4 @@ python remittance_sim.py
 
 Results are printed to the console and written to
 `robustness_variation_results.txt`.
+
