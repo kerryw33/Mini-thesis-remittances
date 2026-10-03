@@ -10,7 +10,7 @@ Supervisor: Allan Davids
 `remittance_sim.py` is a parametric, graph-based simulation of the SA–SADC
 remittance corridor. It models six payment architectures as directed graphs
 and compares them across **cost**, **efficiency (time)** and **accessibility** dimensions at
-three transfer sizes — **$50, $200, $500** — using deterministic results,
+three transfer sizes - **$50, $200, $500** - using deterministic results,
 Monte Carlo analysis and a ranking-robustness test.
 
 The primary analysis uses ±20% parameter variation (dissertation Tables 3
@@ -91,7 +91,7 @@ python remittance_sim.py
 
 | File | Contents |
 |---|---|
-| `simulation_results.txt` | Full console output for Parts 1–4 |
+| `simulation_results.txt` | Full console output for Parts 1-4 |
 | `dynamic_pricing.png` | Deterministic cost by channel at each transfer amount |
 | `monte_carlo_50.png`, `monte_carlo_200.png`, `monte_carlo_500.png` | Cost, time and access (mean ± SE, ±20%) per channel at each amount |
 | `cost_by_amount.png` | How each channel's mean cost changes with transfer amount |
