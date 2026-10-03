@@ -83,6 +83,7 @@ pip install numpy networkx matplotlib
 ## Usage
 
 ```bash
+cd Mini-thesis-remittances
 python remittance_sim.py
 ```
 
